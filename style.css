@@ -1,0 +1,220 @@
+body{
+    background-color: hsl(233, 47%, 7%);
+    font-family: 'Inter', sans-serif;
+    /* font-family: 'Lexend Deca', sans-serif; */
+}
+
+.mainbox{
+    background-color: hsl(244, 38%, 16%);
+    height: 380px;
+    width: 950px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    position: relative;
+    top: 130px;
+    left: 205px;
+}
+
+.mainbox .rightbox{
+    height: auto;
+    width: 100%;
+}
+
+.mainbox .rightbox img{
+    height: 380px;
+    width: 475px;
+    float: right;
+    border-radius: 0px 10px 10px 0px;
+}
+
+.textbox{
+    padding: 50px 10px 0px 60px;
+}
+
+.text h1{
+    font-size: 32px;
+    color: white;
+}
+
+.text h1 .insight{
+    color: hsl(277, 64%, 61%);
+}
+
+.text p{
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 22px;
+    font-weight: 100;
+}
+
+.grid-60{
+    display: flex;
+    gap: 1.5cm;
+    padding-top: 20px;
+}
+
+.grid-20a h1{
+    font-size: 26px;
+    color: white;
+}
+
+.grid-20a p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 310px;
+    position: absolute;
+}
+
+.grid-20b h1{
+    font-size: 26px;
+    color: white;
+}
+
+.grid-20b p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 310px;
+    position: absolute;
+}
+
+.grid-20c h1{
+    font-size: 26px;
+    color: white;
+}
+
+.grid-20c p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 310px;
+    position: absolute;
+}
+
+.purplebox{
+    height: 380px;
+    width: 475px;
+    background-color: hsl(277, 64%, 61%);
+    opacity: 60%;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    top: 138px;
+    left: 688px;
+}
+
+
+
+/* responsive */
+
+@media(max-width: 768px){
+    .mainbox{
+        background-color: hsl(244, 38%, 16%);
+        height: 900px;
+        width: 430px;
+        box-sizing: border-box;
+        border-radius: 10px;
+        position: relative;
+        top: 0px;
+        left: 20px;
+    }
+    .mainbox .rightbox{
+        height: auto;
+        width: 100%;
+    }
+    
+    .mainbox .rightbox img{
+        height: 400px;
+        width: 430px;
+        border-radius: 10px 10px 0px 0px;
+    }
+    .purplebox{
+        height: 400px;
+        width: 430px;
+        box-sizing: border-box;
+        top: 8px;
+        left: 28px;
+        background-color: hsl(277, 64%, 61%);
+        opacity: 60%;
+        border-radius: 10px 10px 0px 0px;
+        position: absolute;
+    }
+    
+    
+.textbox{
+    padding: 430px 50px 0px 50px;
+}
+
+.text h1{
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.text h1 .insight{
+    color: hsl(277, 64%, 61%);
+}
+
+.text p{
+    font-size: 14px;
+    color: hsla(0, 0%, 100%, 0.6);
+    line-height: 22px;
+    font-weight: 100;
+    text-align: center;
+    padding-left: 20px;
+}
+
+.grid-60{
+    display: list-item;
+    gap: 2cm;
+}
+
+.grid-20a h1{
+    font-size: 26px;
+    color: white;
+    position: absolute;
+    left: 190px;
+}
+
+.grid-20a p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 660px;
+    left: 190px;
+    position: absolute;
+}
+
+.grid-20b h1{
+    font-size: 26px;
+    color: white;
+    top: 680px;
+    left: 190px;
+    position: absolute;
+}
+
+.grid-20b p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 720px;
+    left: 190px;
+    position: absolute;
+}
+
+.grid-20c h1{
+    font-size: 26px;
+    color: white;
+    top: 740px;
+    left: 190px;
+    position: absolute;
+}
+
+.grid-20c p{
+    font-size: 11px;
+    color: hsla(0, 0%, 100%, 0.6);
+    top: 780px;
+    left: 190px;
+    position: absolute;
+}
+
+
+
+
+}
